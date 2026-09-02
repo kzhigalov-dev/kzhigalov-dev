@@ -1,31 +1,32 @@
-<h1 align="center">Kirill Zhigalov</h1>
-<p align="center"><b>Full-Stack &amp; AI Engineer</b> · vibe coder · shipping AI-powered SaaS solo</p>
+# Kirill Zhigalov
 
----
+**Junior Data Scientist / ML Engineer** · Saint Petersburg / remote
 
-I build AI products end to end — from the LLM pipeline to auth, billing, and deployment. I like taking an idea and turning it into a working, deployed product in days, driving AI tools instead of writing every line by hand.
+I build end-to-end ML products: data preparation, leakage-safe evaluation, model training, business-aware decision rules, FastAPI services, analytical interfaces, Docker, and CI.
 
-### 🚀 Projects
+Open to internship and junior opportunities in Data Science and ML Engineering.
 
-| Project | What it is | Stack |
-|---------|-----------|-------|
-| **[MarketAI](https://github.com/kzhigalov-dev/marketai)** | SaaS that generates marketplace product listings (WB / Ozon / Amazon) with Claude | Next.js · Supabase · Stripe · YooKassa · Claude |
-| **[Creatix](https://github.com/kzhigalov-dev/creatix)** | Turns any URL into a video creative: scrape → script → voice → render | Next.js · OpenAI · ElevenLabs · Firecrawl |
-| **[Series Shorts Agent](https://github.com/kzhigalov-dev/series-shorts-agent)** | Automation agent producing YouTube Shorts series-recaps (EN/RU) | TypeScript · OpenAI · Gemini · Remotion |
-| **[Gubakha Museum](https://github.com/kzhigalov-dev/gubakha-museum)** | Showcase website for a regional museum | Next.js · Tailwind |
+## Featured projects
 
-### 🛠 Stack
+| Project | Result | Stack |
+| --- | --- | --- |
+| **[Retail Demand Planner](https://github.com/kzhigalov-dev/retail-demand-planner)** | LightGBM reduced MAE by **4.7%** versus a seasonal baseline and lowered simulated inventory cost by **£17,909** | Python, LightGBM, FastAPI, Next.js, Docker |
+| **[FraudLens](https://github.com/kzhigalov-dev/fraudlens)** | Calibrated fraud model reached **0.215 PR-AUC** and **53.7% recall** at a 5% review budget | Python, LightGBM, FastAPI, Next.js, Docker |
+| **[MarketAI](https://github.com/kzhigalov-dev/marketai)** | Deployed AI SaaS with a public generation demo, authentication, and Stripe + YooKassa billing | Next.js, Supabase, Claude SDK |
+| **[Series Shorts Agent](https://github.com/kzhigalov-dev/series-shorts-agent)** | Modular multimodal pipeline for grounding, frame analysis, bilingual scripting, rendering, and publishing | TypeScript, OpenAI, Gemini Vision, Remotion |
 
-**Languages** — TypeScript, JavaScript, Python
-**Frontend** — React, Next.js, Tailwind CSS
-**Backend** — Supabase (Postgres, Auth), Stripe, REST APIs
-**AI / LLM** — Claude (Anthropic SDK), GPT-4o, Gemini, ElevenLabs, Firecrawl; RAG &amp; content-generation pipelines
-**Tools** — Claude Code, Cursor, Git, Vercel, Remotion
+## Core skills
 
-### 📚 Currently
+- **Data and ML:** Python, pandas, NumPy, scikit-learn, LightGBM, feature engineering, forecasting, classification
+- **Evaluation:** temporal validation, target-leakage prevention, PR-AUC, recall, MAE, WAPE, calibration, PSI drift monitoring
+- **Engineering:** FastAPI, REST APIs, Pydantic, Docker Compose, pytest, mypy, Ruff, CI
+- **Product:** Next.js, React, TypeScript, PostgreSQL / Supabase, Git, Vercel
 
-Applied Informatics student (SPbSUITD, 2023–2027). Certified through Anthropic Academy — **Claude 101** &amp; **AI Fluency: Framework &amp; Foundations**.
+## Education
 
-### 📫 Reach me
+- Applied Informatics, SPbSUITD · Bachelor's degree expected in 2027
+- Anthropic Academy · Claude 101 and AI Fluency: Framework & Foundations
 
-[jigaloffkir@gmail.com](mailto:jigaloffkir@gmail.com)
+## Contact
+
+[Email](mailto:jigaloffkir@gmail.com) · [GitHub](https://github.com/kzhigalov-dev)
