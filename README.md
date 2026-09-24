@@ -1,26 +1,36 @@
 # Kirill Zhigalov
 
-**Junior Data Scientist / ML Engineer** · Saint Petersburg / remote
+**ML Engineer / Data Scientist** · Saint Petersburg / remote
 
-I build end-to-end ML products: data preparation, leakage-safe evaluation, model training, business-aware decision rules, FastAPI services, analytical interfaces, Docker, and CI.
+I build ranking, recommendation and scoring models end to end: leakage-safe datasets and features, offline evaluation (NDCG, PR-AUC, MAE), experiment tracking, and the service around the model — FastAPI, Next.js, Docker, CI.
 
-Open to internship and junior opportunities in Data Science and ML Engineering.
+## Experience
+
+| Period | Company | Role | Focus |
+| --- | --- | --- | --- |
+| 2025 – 2026 | Yandex Lavka | ML Developer | Product recommendations: feature checks for stale events and out-of-stock items, ranking comparison by NDCG@10 before A/B tests |
+| 2024 – 2025 | Avito | ML Engineer | Job ranking in Avito Jobs: leakage-safe training data, feature pipeline rewrite, MLflow tracking |
+| 2023 – 2024 | T-Bank | Systems Analyst | Marketing consent API specs, SQL checks of data mismatches between services |
 
 ## Featured projects
 
 | Project | Result | Stack |
 | --- | --- | --- |
-| **[Retail Demand Planner](https://github.com/kzhigalov-dev/retail-demand-planner)** | LightGBM reduced MAE by **4.7%** versus a seasonal baseline and lowered simulated inventory cost by **£17,909** | Python, LightGBM, FastAPI, Next.js, Docker |
-| **[FraudLens](https://github.com/kzhigalov-dev/fraudlens)** | Calibrated fraud model reached **0.215 PR-AUC** and **53.7% recall** at a 5% review budget | Python, LightGBM, FastAPI, Next.js, Docker |
-| **[MarketAI](https://github.com/kzhigalov-dev/marketai)** | Deployed AI SaaS with a public generation demo, authentication, and Stripe + YooKassa billing | Next.js, Supabase, Claude SDK |
-| **[Series Shorts Agent](https://github.com/kzhigalov-dev/series-shorts-agent)** | Modular multimodal pipeline for grounding, frame analysis, bilingual scripting, rendering, and publishing | TypeScript, OpenAI, Gemini Vision, Remotion |
+| **[Job Ranker](https://github.com/kzhigalov-dev/job-ranker)** | Two-stage job recommender on CareerBuilder data (71k users, 284k jobs): NDCG@10 **1.8×** the best baseline, confirmed on a second time window | Python, LightGBM LambdaRank, TF-IDF, MLflow, pytest |
+| **[FraudLens](https://github.com/kzhigalov-dev/fraudlens)** | Calibrated fraud model catches **53.7%** of fraud while reviewing 5% of applications (**10.7×** random), with PSI drift monitoring | Python, LightGBM, FastAPI, Next.js, Docker |
+| **[Retail Demand Planner](https://github.com/kzhigalov-dev/retail-demand-planner)** | LightGBM cut MAE by **4.7%** vs a seasonal baseline; inventory simulation lowered cost by **£17,909** | Python, LightGBM, FastAPI, Next.js, Docker |
+| **[MarketAI](https://github.com/kzhigalov-dev/marketai)** | Deployed AI SaaS generating WB/Ozon/Amazon listings, with auth and Stripe + YooKassa billing | Next.js, Supabase, Claude API |
+| **[Creatix](https://github.com/kzhigalov-dev/creatix)** | URL → video creative pipeline | Firecrawl, GPT-4o, ElevenLabs, Next.js |
+| **[Series Shorts Agent](https://github.com/kzhigalov-dev/series-shorts-agent)** | Multimodal agent that scripts, renders and publishes bilingual YouTube Shorts | TypeScript, Gemini Vision, Remotion, YouTube API |
 
-## Core skills
+Also: [Playwright E2E suite](https://github.com/kzhigalov-dev/f2f-bank-tests) for a banking web app (25 tests, real Vue + FastAPI + PostgreSQL) and a [museum website](https://github.com/kzhigalov-dev/gubakha-museum) on Next.js + Tailwind.
 
-- **Data and ML:** Python, pandas, NumPy, scikit-learn, LightGBM, feature engineering, forecasting, classification
-- **Evaluation:** temporal validation, target-leakage prevention, PR-AUC, recall, MAE, WAPE, calibration, PSI drift monitoring
-- **Engineering:** FastAPI, REST APIs, Pydantic, Docker Compose, pytest, mypy, Ruff, CI
-- **Product:** Next.js, React, TypeScript, PostgreSQL / Supabase, Git, Vercel
+## Skills
+
+- **ML:** Python, pandas, NumPy, scikit-learn, LightGBM, learning to rank, recommender systems, forecasting, classification
+- **Evaluation:** temporal validation, leakage prevention, NDCG, MAP, PR-AUC, recall@k, MAE, calibration, PSI drift, A/B tests
+- **Data & MLOps:** SQL, PostgreSQL, MLflow, Git, Docker Compose, CI, pytest, mypy, Ruff
+- **Services:** FastAPI, REST, Pydantic, Swagger/OpenAPI, Next.js, React, TypeScript, Supabase, Vercel
 
 ## Education
 
