@@ -27,7 +27,7 @@ I build ranking, recommendation and scoring models end to end: leakage-safe data
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| **[Shift Scheduler](https://github.com/kzhigalov-dev/shift-scheduler)** | Event calendar, worker sign-ups, staffing templates and pay calculation; Excel / Google Sheets imports and a Telegram bot. Public version uses demonstration data and PostgreSQL RLS for access control | Next.js 16, React, TypeScript, PostgreSQL, Supabase |
+| **[Shift Scheduler](https://github.com/kzhigalov-dev/shift-scheduler)** · [Live demo](https://kzhigalov-dev.github.io/shift-scheduler/) | Event calendar, worker sign-ups, staffing templates and pay calculation; Excel / Google Sheets imports and a Telegram bot. Public version uses demonstration data and PostgreSQL RLS for access control | Next.js 16, React, TypeScript, PostgreSQL, Supabase |
 | **[Orbita Dashboard](https://github.com/kzhigalov-dev/orbita-dashboard)** · [Live demo](https://kzhigalov-dev.github.io/orbita-dashboard/) | Nine configurable widgets: tasks, weather, currencies, notes, focus timer and more; drag-and-drop, keyboard controls and local persistence | JavaScript ES6+, HTML, CSS, REST APIs, localStorage |
 | **[WhatsApp Chat](https://github.com/kzhigalov-dev/whatsapp-green-api-chat)** · [Live demo](https://kzhigalov-dev.github.io/whatsapp-green-api-chat/) | Text messaging through GREEN-API with notification polling, duplicate handling, delivery statuses and a separate demo mode | React, TypeScript, Vite, GREEN-API |
 
