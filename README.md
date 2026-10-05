@@ -23,14 +23,22 @@ I build ranking, recommendation and scoring models end to end: leakage-safe data
 | **[Creatix](https://github.com/kzhigalov-dev/creatix)** | URL → video creative pipeline | Firecrawl, GPT-4o, ElevenLabs, Next.js |
 | **[Series Shorts Agent](https://github.com/kzhigalov-dev/series-shorts-agent)** | Multimodal agent that scripts, renders and publishes bilingual YouTube Shorts | TypeScript, Gemini Vision, Remotion, YouTube API |
 
-Also: [Playwright E2E suite](https://github.com/kzhigalov-dev/f2f-bank-tests) for a banking web app (25 tests, real Vue + FastAPI + PostgreSQL) and a [museum website](https://github.com/kzhigalov-dev/gubakha-museum) on Next.js + Tailwind.
+## Web applications
+
+| Project | What it does | Stack |
+| --- | --- | --- |
+| **[Shift Scheduler](https://github.com/kzhigalov-dev/shift-scheduler)** | Event calendar, worker sign-ups, staffing templates and pay calculation; Excel / Google Sheets imports and a Telegram bot. Public version uses demonstration data and PostgreSQL RLS for access control | Next.js 16, React, TypeScript, PostgreSQL, Supabase |
+| **[Orbita Dashboard](https://github.com/kzhigalov-dev/orbita-dashboard)** · [Live demo](https://kzhigalov-dev.github.io/orbita-dashboard/) | Nine configurable widgets: tasks, weather, currencies, notes, focus timer and more; drag-and-drop, keyboard controls and local persistence | JavaScript ES6+, HTML, CSS, REST APIs, localStorage |
+| **[WhatsApp Chat](https://github.com/kzhigalov-dev/whatsapp-green-api-chat)** · [Live demo](https://kzhigalov-dev.github.io/whatsapp-green-api-chat/) | Text messaging through GREEN-API with notification polling, duplicate handling, delivery statuses and a separate demo mode | React, TypeScript, Vite, GREEN-API |
+
+Also: [Playwright E2E suite](https://github.com/kzhigalov-dev/f2f-bank-tests) for a banking web app (25 tests, real Vue + FastAPI + PostgreSQL) and a [museum website](https://github.com/kzhigalov-dev/gubakha-museum) on Next.js + Tailwind. My [portfolio website](https://github.com/kzhigalov-dev/kzhigalov-portfolio) brings together ML and software projects.
 
 ## Skills
 
 - **ML:** Python, pandas, NumPy, scikit-learn, LightGBM, learning to rank, recommender systems, forecasting, classification
 - **Evaluation:** temporal validation, leakage prevention, NDCG, MAP, PR-AUC, recall@k, MAE, calibration, PSI drift, A/B tests
 - **Data & MLOps:** SQL, PostgreSQL, MLflow, Git, Docker Compose, CI, pytest, mypy, Ruff
-- **Services:** FastAPI, REST, Pydantic, Swagger/OpenAPI, Next.js, React, TypeScript, Supabase, Vercel
+- **Services:** FastAPI, REST, Pydantic, Swagger/OpenAPI, Next.js, React, TypeScript, JavaScript, HTML/CSS, Supabase, Vercel
 
 ## Education
 
